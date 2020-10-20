@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(Home());
+  runApp(MaterialApp(
+    home: Home(),
+  ));
 }
 
 class Home extends StatefulWidget {
